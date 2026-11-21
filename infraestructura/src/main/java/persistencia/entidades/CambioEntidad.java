@@ -26,7 +26,7 @@ public class CambioEntidad {
     @JoinColumn(name = "idmoneda", referencedColumnName = "id")
     private MonedaEntidad moneda;
 
-    @Column(name = "cambio")
+    @Column(name = "valor")
     private double valor;
 
     @Column(name = "fecha")
